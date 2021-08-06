@@ -1,0 +1,25 @@
+#top-container{
+    background: #3da1ff;
+    min-height: 800px;
+    padding: 230px 0;
+}
+
+#lady-bug{
+    width: 800px;
+    height: 350px;
+    margin: 2% auto;
+    background: url('../images/ladybug_1.png') left center;
+    /* -webkit-animation: play 5s steps(12) infinite;
+    animation: play 5s steps(12) infinite; */
+    animation: left-to-right 1s ease-in forwards;
+}
+
+@keyframes play {
+    0%{background-position: -3024px;}
+    100%{background-position: 0;}
+}
+
+@-webkit-keyframes play{
+    0%{background-position: -3024px;}
+    100%{background-position: 0;}
+}
